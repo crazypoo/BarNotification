@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "JDStatusBarNotification.h"
 @interface ViewController ()
 
 @end
@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [JDStatusBarNotification showWithStatus:@"Hello World!" dismissAfter:2.0
+                                  styleName:JDStatusBarStyleMatrix];
+
 }
 
 - (void)didReceiveMemoryWarning

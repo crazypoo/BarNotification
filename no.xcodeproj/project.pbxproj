@@ -21,6 +21,9 @@
 		CCFC9079187EA38400D5D782 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCFC905B187EA38300D5D782 /* UIKit.framework */; };
 		CCFC9081187EA38500D5D782 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCFC907F187EA38500D5D782 /* InfoPlist.strings */; };
 		CCFC9083187EA38500D5D782 /* noTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFC9082187EA38500D5D782 /* noTests.m */; };
+		CCFC9092187EA3A000D5D782 /* JDStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFC908D187EA3A000D5D782 /* JDStatusBarNotification.m */; };
+		CCFC9093187EA3A000D5D782 /* JDStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFC908F187EA3A000D5D782 /* JDStatusBarStyle.m */; };
+		CCFC9094187EA3A000D5D782 /* JDStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFC9091187EA3A000D5D782 /* JDStatusBarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		CCFC907E187EA38400D5D782 /* noTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "noTests-Info.plist"; sourceTree = "<group>"; };
 		CCFC9080187EA38500D5D782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCFC9082187EA38500D5D782 /* noTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = noTests.m; sourceTree = "<group>"; };
+		CCFC908C187EA3A000D5D782 /* JDStatusBarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarNotification.h; sourceTree = "<group>"; };
+		CCFC908D187EA3A000D5D782 /* JDStatusBarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarNotification.m; sourceTree = "<group>"; };
+		CCFC908E187EA3A000D5D782 /* JDStatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarStyle.h; sourceTree = "<group>"; };
+		CCFC908F187EA3A000D5D782 /* JDStatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarStyle.m; sourceTree = "<group>"; };
+		CCFC9090187EA3A000D5D782 /* JDStatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarView.h; sourceTree = "<group>"; };
+		CCFC9091187EA3A000D5D782 /* JDStatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,12 @@
 		CCFC904B187EA38300D5D782 = {
 			isa = PBXGroup;
 			children = (
+				CCFC908C187EA3A000D5D782 /* JDStatusBarNotification.h */,
+				CCFC908D187EA3A000D5D782 /* JDStatusBarNotification.m */,
+				CCFC908E187EA3A000D5D782 /* JDStatusBarStyle.h */,
+				CCFC908F187EA3A000D5D782 /* JDStatusBarStyle.m */,
+				CCFC9090187EA3A000D5D782 /* JDStatusBarView.h */,
+				CCFC9091187EA3A000D5D782 /* JDStatusBarView.m */,
 				CCFC905D187EA38300D5D782 /* no */,
 				CCFC907C187EA38400D5D782 /* noTests */,
 				CCFC9056187EA38300D5D782 /* Frameworks */,
@@ -251,6 +266,9 @@
 			files = (
 				CCFC906E187EA38400D5D782 /* ViewController.m in Sources */,
 				CCFC9068187EA38400D5D782 /* AppDelegate.m in Sources */,
+				CCFC9092187EA3A000D5D782 /* JDStatusBarNotification.m in Sources */,
+				CCFC9093187EA3A000D5D782 /* JDStatusBarStyle.m in Sources */,
+				CCFC9094187EA3A000D5D782 /* JDStatusBarView.m in Sources */,
 				CCFC9064187EA38400D5D782 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
